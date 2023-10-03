@@ -19,9 +19,10 @@ public class Vista {
     public void getStarted() {
         do {
             System.out.println("\n******************** Bienvenido a IES de Teis ****************************");
-            System.out.println("\n\t1. Ver Alumnos.\t\t\t\t\t\t\t\t4. Añadir Alumno.");
-            System.out.println("\n\t2. Ver Alumno Estrella.\t\t\t\t\t\t5. Añadir nota a alumno.");
-            System.out.println("\n\t3. Ver Nota media.\t\t\t\t\t\t\t0. Exit.");
+            System.out.println("\n\t1. Ver Alumnos.\t\t\t\t\t\t\t\t5. Añadir Alumno.");
+            System.out.println("\n\t2. Ver Alumno Estrella.\t\t\t\t\t\t6. Borrar Alumno.");
+            System.out.println("\n\t3. Ver Alumnos Suspensos.\t\t\t\t\t7. Añadir Nota.");
+            System.out.println("\n\t4. Ver Nota media.\t\t\t\t\t\t\t0. Exit.");
             System.out.println("\n**************************************************************************");
             scanner = new Scanner(System.in);
 
@@ -30,7 +31,6 @@ public class Vista {
                 if (choice == 1) {
                     System.out.println("Lista de alumnos matriculados:");
                     //TODO
-
                 } else if (choice == 2) {
                     //TODO
                 } else if (choice == 3) {
@@ -38,6 +38,10 @@ public class Vista {
                 } else if (choice == 4) {
                     //TODO
                 } else if (choice == 5) {
+                    //TODO
+                } else if (choice == 6) {
+                    //TODO
+                } else if (choice == 7) {
                     //TODO
                 } else if (choice == 0) {
                     System.out.println("Bye!!");
